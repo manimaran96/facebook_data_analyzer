@@ -2,5 +2,7 @@
 
 source 'https://rubygems.org'
 
-gem 'axlsx', '~> 2.0.1'
-gem 'nokogiri', '~> 1.8.2'
+git_source(:github) { |repo_name| "https://github.com/#{repo_name}" }
+
+# Specify your gem's dependencies in facebook_data_analyzer.gemspec
+gemspec

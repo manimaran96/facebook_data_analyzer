@@ -1,0 +1,18 @@
+*.xlsx
+facebook_data_analyzer.html
+example/facebook-monaleigh/messages/*.json
+# bundle gem
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+
+.idea/
+.env
+
+# rspec failure tracking
+.rspec_status
